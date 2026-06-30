@@ -283,6 +283,9 @@ Use this workflow if you already have a folder of correlation matrices saved as 
 2. When the status line reads "Analysis complete!", click **View Correlation Dashboard**.
 3. Three heatmaps appear in the right-hand panel: **Positive Correlation**, **Negative Correlation**, and **Combined Correlation**, each showing only the residue pairs that satisfy the filters from Section 3.
 
+<img width="4398" height="1386" alt="Fig6_manual" src="https://github.com/user-attachments/assets/48eaf38d-30b9-4c6f-9c02-f8423ee02055" />
+
+
 *Figure 6 — The populated dashboard, showing positive, negative, and combined correlation heatmaps for a sample data set.*
 
 Each heatmap supports the standard Matplotlib navigation toolbar beneath it, so you can pan, zoom, and save any panel as an image independently of the rest of the dashboard.
@@ -290,6 +293,9 @@ Each heatmap supports the standard Matplotlib navigation toolbar beneath it, so 
 ### 6.5 Inspecting a residue pair's time series
 
 To examine how a specific residue pair's correlation behaves across the trajectory rather than just its summary statistic, double-click that cell in any of the three heatmaps. A new window opens showing the pair's correlation value at every individual window plotted against window index, along with its mean and standard deviation. From this window you can save the plot as a PNG or export the underlying values as a CSV.
+
+<img width="4398" height="1394" alt="Fig7_manual" src="https://github.com/user-attachments/assets/04920bdf-8fb9-4052-b6a3-9c2b1ca4c08d" />
+
 
 *Figure 7 — The dashboard, showing the residue pair time series for a sample data set.*
 
