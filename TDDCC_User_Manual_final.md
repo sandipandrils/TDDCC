@@ -151,6 +151,7 @@ python3 TD-DCC_gui.py       # Linux
 
 A small window titled "Dynamic Cross-Correlation Analysis" should appear within a few seconds (Figure 2). If it does, installation is complete and you can proceed to Section 4.
 
+<img width="811" height="638" alt="Screenshot 2026-06-30 104647" src="https://github.com/user-attachments/assets/39d5f957-78f3-4756-9e05-caab5e3f3132" />
 *Figure 2 — The TD-DCC intro screen confirms a successful installation.*
 
 > **CAUTION:** If nothing appears and you instead see an error in the terminal, check [Section 8 (Troubleshooting)](#8-troubleshooting) for the most common causes.
