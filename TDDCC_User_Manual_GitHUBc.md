@@ -36,7 +36,7 @@ Covers `TDDCC_gui.py` — standalone desktop edition
 
 ## 1. Introduction
 
-TDDCC (Time-Dependent Dynamical Cross-Correlation) is a standalone desktop application for computing and exploring dynamical cross-correlation matrices (DCCMs) from molecular dynamics (MD) trajectories. Unlike a conventional DCCM, which averages an entire trajectory into a single static matrix, TDDCC computes correlations over a sliding window of frames and tracks how each residue pair's correlation behaves across the whole trajectory — whether it stays consistently positive, consistently negative, or fluctuates between the two.
+TD-DCC (Time-Dependent Dynamical Cross-Correlation) is a standalone desktop application for computing and exploring dynamical cross-correlation matrices (DCCMs) from molecular dynamics (MD) trajectories. Unlike a conventional DCCM, which averages an entire trajectory into a single static matrix, TDDCC computes correlations over a sliding window of frames and tracks how each residue pair's correlation behaves across the whole trajectory — whether it stays consistently positive, consistently negative, or fluctuates between the two.
 
 The application provides everything needed for this workflow in a single window: an optional built-in trajectory-to-matrix compute engine, a statistics engine that aggregates per-window matrices into mean correlation, standard deviation, and positive/negative occurrence probability for every residue pair, and an interactive dashboard for filtering, visualizing, and exporting the results.
 
@@ -50,13 +50,13 @@ The diagram below summarizes the overall pipeline: a trajectory is streamed and 
 
 <img width="4500" height="3031" alt="Fig1" src="https://github.com/user-attachments/assets/fbab437f-776b-462b-be74-9fd4d692be0c" />
 
-*Figure 1 — Overview of the TDDCC compute and visualization pipeline.*
+*Figure 1 — Overview of the TD-DCC compute and visualization pipeline.*
 
 ---
 
 ## 2. System Requirements
 
-TDDCC is a pure-Python desktop application and runs on Windows, macOS, and Linux. It has modest hardware requirements:
+TD-DCC is a pure-Python desktop application and runs on Windows, macOS, and Linux. It has modest hardware requirements:
 
 - Python 3.9 or later (3.10–3.12 recommended).
 - 4 GB RAM minimum; 8 GB or more recommended for proteins larger than a few hundred residues.
