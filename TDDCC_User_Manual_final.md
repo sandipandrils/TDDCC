@@ -240,6 +240,8 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 2. When the status line reads "Analysis complete!", click **View Correlation Dashboard**.
 3. Three heatmaps appear in the right-hand panel: **Positive Correlation**, **Negative Correlation**, and **Combined Correlation**, each showing only the residue pairs that satisfy the filters from Section 6.2.
 
+<img width="4398" height="1386" alt="Fig6_manual" src="https://github.com/user-attachments/assets/48eaf38d-30b9-4c6f-9c02-f8423ee02055" />
+
 *Figure 6 — The populated dashboard, showing positive, negative, and combined correlation heatmaps for a sample data set.*
 
 Each heatmap supports the standard Matplotlib navigation toolbar beneath it, so you can pan, zoom, and save any panel as an image independently of the rest of the dashboard.
