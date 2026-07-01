@@ -210,6 +210,8 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 5. Click **COMPUTE DCC**. Progress is reported in the log box and the progress bar; this can take anywhere from a few seconds to several minutes, depending on trajectory length and Window/Step settings.
 6. When finished, TD-DCC automatically fills the next section (Input Data) with the output directory, so you can go straight to Section 6.2.
 
+<img width="4500" height="1455" alt="Fig4_manual" src="https://github.com/user-attachments/assets/f6b39d7f-7ba7-468f-9862-3ef7cfdb2ba3" />
+
 *Figure 4 — The dashboard, showing DCC calculation for a sample data set.*
 
 > **NOTE:** If MDAnalysis is not installed, it will report an error when you click COMPUTE DCC. Install it with `pip install MDAnalysis`.
