@@ -228,6 +228,8 @@ Use this workflow if you have a raw trajectory and topology file and want TD-DCC
 - **Positive correlation / Negative correlation** — the range of mean correlation values that count as positively or negatively correlated.
 - **Positive corr. Prob. / Negative corr. Prob.** — the range of occurrence probability — the fraction of windows in which a pair showed that sign of correlation — required for a pair to be included. A high probability means the correlation is consistent across the trajectory rather than driven by a few outlier windows.
 
+<img width="4388" height="1358" alt="Fig5_manual" src="https://github.com/user-attachments/assets/d3a85ffb-15d0-43df-b1d8-9d61aa4012df" />
+
 *Figure 5 — The populated dashboard, showing residue limit settings and running the analysis for a sample data set.*
 
 > **NOTE:** The default filters (correlation magnitude ≥ 0.2, probability ≥ 0.1) are a reasonable starting point. You can re-enter different values and click Run Analysis again at any time without reloading your data.
