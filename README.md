@@ -190,9 +190,9 @@ If you use TD-DCC in your research, please cite:
 
 > *Manuscript details to be added upon publication.*
 
-Also please cite MDanalysis:
+TD-DCC uses **MDAnalysis** for trajectory parsing. If you use the built-in compute engine, please also cite:
 
-> *Manuscript details to be added upon publication.*
+> Michaud-Agrawal, N., Denning, E.J., Woolf, T.B. and Beckstein, O. (2011). MDAnalysis: A toolkit for the analysis of molecular dynamics simulations. *Journal of Computational Chemistry*, 32(10): 2319–2327. https://doi.org/10.1002/jcc.21787
 
 ---
 
