@@ -190,6 +190,10 @@ If you use TD-DCC in your research, please cite:
 
 > *Manuscript details to be added upon publication.*
 
+Also please cite MDanalysis:
+
+> *Manuscript details to be added upon publication.*
+
 ---
 
 ## License
