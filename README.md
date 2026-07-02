@@ -1,6 +1,6 @@
 # TD-DCC — Time-Dependent Dynamic Cross-Correlation Analysis
 
-**TD-DCC** is a standalone desktop application for computing and visualizing time-resolved dynamical cross-correlation matrices (DCCMs) from molecular dynamics (MD) trajectories.
+**TD-DCC** is a standalone desktop application for computing and visualizing time-resolved dynamic cross-correlation matrices (DCCMs) from molecular dynamics (MD) trajectories.
 
 Unlike a conventional DCCM — which collapses an entire trajectory into a single static matrix — TD-DCC computes correlations over a **sliding window of frames** and tracks how each residue pair's correlation evolves across the simulation: whether it stays consistently positive, consistently negative, or fluctuates between the two.
 
