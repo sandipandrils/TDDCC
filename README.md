@@ -99,19 +99,15 @@ Click **"Launch Analysis Dashboard"** on the intro screen to open the main works
 
 ## Workflows
 
-### Workflow A — Starting from an MD trajectory
 
 1. Browse to your **Trajectory** file (`.xtc`, `.dcd`, `.trr`, or any MDAnalysis-supported format)
 2. Browse to your **Topology** file (`.pdb`, `.tpr`, `.gro`, etc.)
 3. Browse to an **Output directory** for the computed matrices
 4. Set **Window**, **Step**, and **Cores**, then click **COMPUTE DCC**
 5. TD-DCC fills the Input Data path automatically when done — proceed to analysis
-
-### Workflow B — Starting from existing correlation matrices
-
-1. Point **Input Data** at a folder of pre-computed `.txt` matrix files
-2. Set **Residue Limits** and **Correlation Filters**
-3. Click **RUN ANALYSIS** → **View Correlation Dashboard**
+6. Point **Input Data** at a folder of pre-computed `.txt` matrix files
+7. Set **Residue Limits** and **Correlation Filters**
+8. Click **RUN ANALYSIS** → **View Correlation Dashboard**
 
 > **TIP:** Double-click any cell in a heatmap to open the per-pair time series inspector and confirm whether a correlation is persistent or transient.
 
